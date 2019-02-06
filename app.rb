@@ -5,7 +5,7 @@ class App < Sinatra::Base
   get '/food_form' do
     erb :food_form
   end
-  ger '/food' do 
+  ger '/food' do
     erb :food_form
   end
   # Add your post route and action below
